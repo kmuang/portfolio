@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khup Muang | Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; }
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-900 font-sans">
+  <div class="max-w-3xl mx-auto my-8 bg-white shadow-xl rounded-2xl p-10 print:shadow-none print:my-0 print:rounded-none">
+    <div class="flex items-start justify-between gap-6 border-b border-slate-200 pb-6">
+      <div>
+        <h1 class="text-3xl font-bold tracking-tight">Khup Muang</h1>
+        <p class="text-blue-700 font-medium mt-1">Aspiring Software Developer</p>
+        <p class="text-sm text-slate-600 mt-3">Tulsa, Oklahoma · Born in Myanmar</p>
+      </div>
+      <img src="img/myLogo.png" alt="KM logo" class="w-16 h-16 object-contain">
+    </div>
+
+    <section class="mt-6">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Summary</h2>
+      <p class="mt-2 text-slate-700 leading-relaxed">
+        Aspiring software developer passionate about building responsive web applications.
+        Completing Nucamp coding bootcamp with a focus on HTML, CSS, Bootstrap, and modern frontend practices.
+      </p>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Skills</h2>
+      <p class="mt-2 text-slate-700">HTML5 · CSS3 · Bootstrap · Responsive Design · JavaScript · Git &amp; GitHub</p>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Projects</h2>
+      <ul class="mt-2 space-y-2 text-slate-700 list-disc pl-5">
+        <li>Personal profile page — semantic HTML structure and introductory CSS.</li>
+        <li>Accessible HTML form workshop — inputs, validation patterns, and layout grouping.</li>
+        <li>Nucamp campsite site — Bootstrap layout, components, and responsive navigation.</li>
+      </ul>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500">Links</h2>
+      <p class="mt-2 text-sm text-blue-700 space-y-1">
+        <a class="block hover:underline" href="https://github.com/kmuang">github.com/kmuang</a>
+        <a class="block hover:underline" href="https://www.linkedin.com/in/khup-muang-26bb3417a/">linkedin.com/in/khup-muang-26bb3417a</a>
+      </p>
+    </section>
+
+    <div class="no-print mt-8 flex gap-3">
+      <button type="button" onclick="window.print()" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700">Print / Save PDF</button>
+      <a href="index.html" class="border border-slate-300 px-4 py-2 rounded-lg font-medium hover:bg-slate-50">Back to Portfolio</a>
+    </div>
+  </div>
+</body>
+</html>
